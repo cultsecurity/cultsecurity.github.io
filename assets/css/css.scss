@@ -375,6 +375,21 @@ section.valikko {
   font-size: $size-small;
 }
 
+section.cult {
+  background-color: #000000; 
+  .section-header {
+    max-width: 820px;
+  }
+}
+
+  img {
+    max-width: 360px;
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+    width: 100%;
+  }
+}
+
 section.listaus {
   .section-header {
     max-width: 820px;
