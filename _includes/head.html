@@ -12,11 +12,3 @@
 <meta property="og:image" content="{{ site.baseurl }}/assets/img/og-image.jpg" />
 
 <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/css.css" />
-
-<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-
-{% if page.custom_js %}
-  {% for js_file in page.custom_js %}
-    <script src="{{ site.baseurl }}/assets/js/{{ js_file }}" type="text/javascript"></script>
-  {% endfor %}
-{% endif %}
