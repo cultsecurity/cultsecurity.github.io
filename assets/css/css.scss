@@ -53,6 +53,7 @@ $size-tiny: 12px;
 $size-small: 14px;
 $size-base: 18px;
 $size-medium: 23px;
+$size-large-minus: 30px;
 $size-large: 38px;
 $size-huge: 53px;
 $size-extra-huge: 61px;
@@ -349,7 +350,11 @@ section.valikko {
   max-width: 600px;
   font-family: 'Avenir', 'Nunito', sans-serif;
   font-weight: 900;
-  font-size: $size-large;
+  font-size: $size-large-minus;   
+ 
+  @media screen and (min-width: $tablet) {
+    font-size: $size-large;
+  }
 }
 
 .lista {
