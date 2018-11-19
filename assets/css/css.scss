@@ -203,8 +203,8 @@ a:hover.tooltips span {
 /* Main styles mobile */
 
 .hero {
-  background-color: black;
-  color: #000;
+  background-color: white;
+  color: #fff;
   text-align: center;
   padding: 40px 0 0px 0;
   margin-bottom: 0px;
@@ -375,7 +375,20 @@ section.valikko {
 }
 
 section.cult {
-  background-color: #000000; 
+  background-color: #ffffff; 
+  .section-header {
+    max-width: 820px;
+  }
+
+  img {
+    max-width: 360px;
+    margin-bottom: 3rem;
+    width: 100%;
+  }
+}
+
+section.cultfooter {
+  background-color: #000000;
   .section-header {
     max-width: 820px;
   }
